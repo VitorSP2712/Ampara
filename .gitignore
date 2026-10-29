@@ -1,0 +1,22 @@
+# Ambiente virtual
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Testes
+.pytest_cache/
+.hypothesis/
+
+# Banco local e uploads
+*.db
+uploads/
+
+# Segredos e configuração local
+.env
+
+# Logs e temporários
+pip.log
+*.tmp
